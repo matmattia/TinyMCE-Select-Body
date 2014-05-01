@@ -1,14 +1,14 @@
 /**
-* TinyMCE Select Body
-* @name editor_plugin_src.js
-* @author Mattia - http://www.matriz.it
-* @version 1.0.0
-* @date March 26, 2012
-* @category TinyMCE plugin
-* @copyright (c) 2012 Mattia at Matriz.it (info@matriz.it)
-* @license MIT - http://opensource.org/licenses/mit-license.php
-* @example Visit http://www.matriz.it/projects/tinymce-select-body/ for more informations about this TinyMCE plugin
-*/
+ * TinyMCE Select Body
+ * @name editor_plugin_src.js
+ * @author Mattia - http://www.matriz.it
+ * @version 1.0.0
+ * @date March 26, 2012
+ * @category TinyMCE plugin
+ * @copyright (c) 2012 Mattia at Matriz.it (info@matriz.it)
+ * @license MIT - http://opensource.org/licenses/mit-license.php
+ * @example Visit http://www.matriz.it/projects/tinymce-select-body/ for more informations about this TinyMCE plugin
+ */
 
 (function() {
 	// Load plugin specific language pack
@@ -29,7 +29,7 @@
 				tinyMCE.activeEditor.selection.select(tinyMCE.activeEditor.dom.select('body')[0]);
 			});
 
-			// Register example button
+			// Register button
 			ed.addButton('selectbody', {
 				title : 'selectbody.desc',
 				cmd : 'mceSelectBody',
