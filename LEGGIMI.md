@@ -1,6 +1,6 @@
 # TinyMCE Select Body
 
-Select Body è un plug-in di TinyMCE 3 che permette di selezionare il tag `body` e assegnargli delle proprietà.
+Select Body è un plug-in di TinyMCE 4 che permette di selezionare il tag `body` per assegnargli delle proprietà.
 
 ## Altre informazioni
 
